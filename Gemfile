@@ -40,6 +40,8 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'cancan'
 
+gem 'activeadmin', github: 'activeadmin'
+
 gem 'responders'
 
 gem 'default_value_for', '3.0.1'      # Provides a way to specify default values for ActiveRecord models
