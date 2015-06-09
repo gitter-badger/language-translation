@@ -33,8 +33,10 @@ gem 'will_paginate', '~> 3.0.6'       # Pagination library for Rails
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'devise', '~> 3.4.1'                # Flexible authentication solution for Rails with Warden
-gem 'devise_invitable', '~> 1.4.1'      # An invitation strategy for devise
+gem 'devise', '~> 3.5.0'                # Flexible authentication solution for Rails with Warden
+gem 'devise_invitable', '~> 1.5.0'      # An invitation strategy for devise
+gem 'devise-token_authenticatable', "~> 0.4.0" # Token Authenticatable module of devise. 
+
 
 gem 'cancan'
 
