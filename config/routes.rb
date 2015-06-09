@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-  devise_for :users, controllers: { registrations: "registrations" }
+  devise_for :users, ActiveAdmin::Devise.config, controllers: { registrations: "registrations" }
+  ActiveAdmin.routes(self)
 
   # :path_prefix - to customise routes
   # :controllers - to override the devise default - 
