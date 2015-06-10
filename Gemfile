@@ -37,6 +37,7 @@ gem 'devise', '~> 3.5.0'                # Flexible authentication solution for R
 gem 'devise_invitable', '~> 1.5.0'      # An invitation strategy for devise
 gem 'devise-token_authenticatable', "~> 0.4.0" # Token Authenticatable module of devise. 
 
+gem 'active_model_serializers', '0.8.3' # ActiveModel::Serializer implementation and Rails hooks
 
 gem 'cancan'
 
